@@ -21,7 +21,6 @@ class App extends React.Component {
         );
     }
 
-   
     //React says you have to define render
     render() {
         if (this.state.errorMessage && !this.state.lat) {
@@ -31,7 +30,7 @@ class App extends React.Component {
             return <div>Latitude: {this.state.lat}</div>;
         }
 
-        return <div>Loading!</div>;
+            return <div>Loading!</div>;
     }
 }
 
